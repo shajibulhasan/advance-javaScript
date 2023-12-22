@@ -19,7 +19,6 @@ numbers.map(function (element, index, array) {
 // filter array return kore
 const bigger = numbers.filter( x => x > 4);
 console.log(bigger) ;
-
-// find condition check kore true hole aktai value return kore
+// find condition check kore true hole aktai value return kore, false hole undefined return kore
 const isThere = numbers.find( x=> x>7);
 console.log(isThere);
